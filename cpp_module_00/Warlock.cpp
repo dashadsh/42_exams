@@ -1,6 +1,8 @@
 
 #include "Warlock.hpp"
 
+// ===================== PUBLIC =======================================
+
 Warlock::Warlock(const std::string& newName, const std::string& newTitle) : name(newName), title(newTitle) {
 	std::cout << this->name << ": This looks like another boring day." << std::endl;
 }
@@ -20,7 +22,8 @@ void Warlock::setTitle(const std::string& newTitle){
 void Warlock::introduce() const{
 	std::cout << this->name << ": I am " << this->name << ", " << this->title << "!" << std::endl;
 }
-//===============================================
+
+// ===================== PRIVATE ==========================================
 
 Warlock::Warlock(){}
 
