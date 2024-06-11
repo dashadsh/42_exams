@@ -1,6 +1,6 @@
 #pragma once
-#include "ASpell.hpp"
 #include <iostream>
+#include "ASpell.hpp"
 
 class ASpell;
 
@@ -19,5 +19,5 @@ public:
 
 	virtual ATarget* clone() const = 0;
 
-	void getHitBySpell(const ASpell& spell) const; // 2ns const??
+	void getHitBySpell(const ASpell& spell) const; // no 1st const??
 };

@@ -4,7 +4,7 @@
 
 class ATarget;
 
-class ASpell {
+class ASpell {	
 protected:
 	std::string name;
 	std::string effects;
@@ -21,5 +21,5 @@ public:
 
 	virtual ASpell* clone() const = 0;
 
-	void launch(const ATarget& target) const;
+	void launch(const ATarget& target) const; // no need 1st const??
 };
