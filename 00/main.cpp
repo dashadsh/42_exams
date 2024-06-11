@@ -1,5 +1,3 @@
-// g++ -std=c++98 -Wall -Wextra -pedantic Warlock.cpp main.cpp  -o Warlock   
-
 #include "Warlock.hpp"
 
 int main()
